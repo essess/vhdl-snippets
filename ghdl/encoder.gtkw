@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Apr 12 17:19:57 2019
+[*]
+[dumpfile] "/home/sean/prj/fpga/snippets/ghdl/wave.vcd"
+[dumpfile_mtime] "Fri Apr 12 17:19:42 2019"
+[dumpfile_size] 1881
+[savefile] "/home/sean/prj/fpga/snippets/ghdl/encoder.gtkw"
+[timestart] 34500000
+[size] 1600 845
+[pos] -1 -1
+*-24.297440 85000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] encoder_tb.
+[sst_width] 202
+[signals_width] 187
+[sst_expanded] 1
+[sst_vpaned_height] 233
+@28
+encoder_tb.srst
+encoder_tb.clk
+@420
+encoder_tb.clkcnt
+@200
+-
+@28
+encoder_tb.encclk
+encoder_tb.encdat
+@200
+-
+@c00022
+encoder_tb.cnt[3:0]
+@28
+(0)encoder_tb.cnt[3:0]
+(1)encoder_tb.cnt[3:0]
+(2)encoder_tb.cnt[3:0]
+(3)encoder_tb.cnt[3:0]
+@1401200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

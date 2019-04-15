@@ -1,0 +1,52 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sat Apr 13 00:44:14 2019
+[*]
+[dumpfile] "/home/sean/prj/fpga/snippets/ghdl/wave.vcd"
+[dumpfile_mtime] "Sat Apr 13 00:41:59 2019"
+[dumpfile_size] 25924
+[savefile] "/home/sean/prj/fpga/snippets/ghdl/debounce.gtkw"
+[timestart] 0
+[size] 1600 845
+[pos] -1 -1
+*-28.501175 2315000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] debounce_tb.
+[treeopen] debounce_tb.dut.
+[sst_width] 202
+[signals_width] 135
+[sst_expanded] 1
+[sst_vpaned_height] 369
+@28
+debounce_tb.srst
+@420
+debounce_tb.clkcnt
+@28
+debounce_tb.clk
+(1)debounce_tb.enb[4:1]
+@200
+-
+@28
+debounce_tb.d
+debounce_tb.q
+@200
+-
+-
+-
+-
+-
+@28
+debounce_tb.dut.ones
+debounce_tb.dut.zeros
+@200
+-
+@c00022
+debounce_tb.dut.siposr0.q_out[3:0]
+@28
+(0)debounce_tb.dut.siposr0.q_out[3:0]
+(1)debounce_tb.dut.siposr0.q_out[3:0]
+(2)debounce_tb.dut.siposr0.q_out[3:0]
+(3)debounce_tb.dut.siposr0.q_out[3:0]
+@1401200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

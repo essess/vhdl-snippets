@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Wed Apr 10 00:39:28 2019
+[*]
+[dumpfile] "/home/sean/prj/fpga/sscdiv/ghdl/wave.vcd"
+[dumpfile_mtime] "Wed Apr 10 00:38:18 2019"
+[dumpfile_size] 13150
+[savefile] "/home/sean/prj/fpga/sscdiv/ghdl/enbdiv.gtkw"
+[timestart] 0
+[size] 1600 845
+[pos] -1 -1
+*-27.773430 35000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 202
+[signals_width] 209
+[sst_expanded] 1
+[sst_vpaned_height] 233
+@200
+-
+@28
+enbdiv_tb.srst
+@420
+enbdiv_tb.clkcnt
+@28
+enbdiv_tb.clk
+@800023
+enbdiv_tb.enb[6:1]
+@29
+(0)enbdiv_tb.enb[6:1]
+(1)enbdiv_tb.enb[6:1]
+(2)enbdiv_tb.enb[6:1]
+(3)enbdiv_tb.enb[6:1]
+(4)enbdiv_tb.enb[6:1]
+(5)enbdiv_tb.enb[6:1]
+@1001201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
