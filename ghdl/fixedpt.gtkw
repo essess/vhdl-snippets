@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Feb 20 16:19:33 2020
+[*]
+[dumpfile] "C:\prj\vhdl-snippets\ghdl\wave.vcd"
+[dumpfile_mtime] "Thu Feb 20 16:10:23 2020"
+[dumpfile_size] 2197
+[savefile] "C:\prj\vhdl-snippets\ghdl\fixedpt.gtkw"
+[timestart] 0
+[size] 1357 734
+[pos] 28 -8
+*-24.242001 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fixedpt_tb.
+[sst_width] 211
+[signals_width] 86
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@420
+fixedpt_tb.clkcnt
+@22
+fixedpt_tb.a[15:0]
+@23
+fixedpt_tb.b[15:0]
+@22
+fixedpt_tb.c[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

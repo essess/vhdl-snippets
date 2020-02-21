@@ -8,7 +8,8 @@ SRC = \
 	$(SRC_DIR)/debounce.vhd\
 	$(SRC_DIR)/sseg.vhd\
 	$(SRC_DIR)/incenc.vhd\
-	$(SRC_DIR)/wb_syscon.vhd
+	$(SRC_DIR)/wb_syscon.vhd\
+	$(SRC_DIR)/fixedpt.vhd
 
 
 
@@ -21,7 +22,8 @@ TB_SRC = \
 	$(TB_DIR)/siposr_tb.vhd\
 	$(TB_DIR)/debounce_tb.vhd\
 	$(TB_DIR)/incenc_tb.vhd\
-	$(TB_DIR)/wb_syscon_tb.vhd
+	$(TB_DIR)/wb_syscon_tb.vhd\
+	$(TB_DIR)/fixedpt_tb.vhd
 
 GHDL_FLAGS=--std=08 -v --warn-error -fcaret-diagnostics
 
