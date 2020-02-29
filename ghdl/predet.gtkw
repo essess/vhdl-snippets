@@ -1,0 +1,57 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Feb 23 19:09:39 2020
+[*]
+[dumpfile] "C:\prj\vhdl-snippets\ghdl\wave.vcd"
+[dumpfile_mtime] "Sun Feb 23 17:55:05 2020"
+[dumpfile_size] 15242
+[savefile] "C:\prj\vhdl-snippets\ghdl\predet.gtkw"
+[timestart] 385000000
+[size] 1536 801
+[pos] -1 -1
+*-25.796812 545000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] predet_tb.
+[sst_width] 211
+[signals_width] 248
+[sst_expanded] 1
+[sst_vpaned_height] 273
+@22
+predet_tb.threshold[15:0]
+@28
+predet_tb.srst
+predet_tb.clk
+@421
+predet_tb.clkcnt
+@200
+-
+@28
+predet_tb.bos_toggle
+@8022
+predet_tb.smp_in[15:0]
+@20000
+-
+@200
+-
+@8022
+predet_tb.smp_out[15:0]
+@20000
+-
+-
+-
+@28
+predet_tb.valid
+@200
+-
+-
+-
+-
+@28
+predet_tb.chk_toggle
+@200
+-
+-dut ***INTERNAL***
+@28
+predet_tb.dut.value
+predet_tb.dut.valid
+[pattern_trace] 1
+[pattern_trace] 0

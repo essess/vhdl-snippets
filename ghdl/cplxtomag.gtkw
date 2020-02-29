@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Feb 24 15:34:04 2020
+[*]
+[dumpfile] "C:\prj\vhdl-snippets\ghdl\wave.vcd"
+[dumpfile_mtime] "Mon Feb 24 15:29:05 2020"
+[dumpfile_size] 1291
+[savefile] "C:\prj\vhdl-snippets\ghdl\cplxtomag.gtkw"
+[timestart] 0
+[size] 1200 600
+[pos] -15 -57
+*-23.793482 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cplxtomag_tb.
+[sst_width] 211
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@28
+cplxtomag_tb.srst
+cplxtomag_tb.clk
+@420
+cplxtomag_tb.clkcnt
+cplxtomag_tb.a[15:0]
+cplxtomag_tb.b[15:0]
+@421
+cplxtomag_tb.magsq[15:0]
+@28
+cplxtomag_tb.assert_tog
+[pattern_trace] 1
+[pattern_trace] 0

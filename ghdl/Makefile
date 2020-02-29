@@ -9,7 +9,9 @@ SRC = \
 	$(SRC_DIR)/sseg.vhd\
 	$(SRC_DIR)/incenc.vhd\
 	$(SRC_DIR)/wb_syscon.vhd\
-	$(SRC_DIR)/fixedpt.vhd
+	$(SRC_DIR)/fixedpt.vhd\
+	$(SRC_DIR)/predet.vhd\
+	$(SRC_DIR)/cplxtomag.vhd
 
 
 
@@ -23,7 +25,9 @@ TB_SRC = \
 	$(TB_DIR)/debounce_tb.vhd\
 	$(TB_DIR)/incenc_tb.vhd\
 	$(TB_DIR)/wb_syscon_tb.vhd\
-	$(TB_DIR)/fixedpt_tb.vhd
+	$(TB_DIR)/fixedpt_tb.vhd\
+	$(TB_DIR)/predet_tb.vhd\
+	$(TB_DIR)/cplxtomag_tb.vhd
 
 GHDL_FLAGS=--std=08 -v --warn-error -fcaret-diagnostics
 

@@ -1,0 +1,439 @@
+<?xml version='1.0'?>
+<!DOCTYPE qfsmproject SYSTEM 'qfsm.dtd'>
+<qfsmproject version="0.54" author="Qfsm">
+  <machine nummooreout="1" transfontitalic="0" draw_it="1" statefontsize="8" transfont="Helvetica" statefontitalic="0" author="Sean Stasiak" description="initial brute force approach" version="1.0" name="ADS-B Preamble Detector" arrowtype="3" numbits="6" statefontweight="50" statefont="Helvetica" numin="1" transfontsize="8" transfontweight="50" type="0" numout="0" initialstate="0">
+    <outputnames_moore>valid</outputnames_moore>
+    <inputnames>in</inputnames>
+    <outputnames></outputnames>
+    <itransition ypos="290.1056000000002" endx="1509.321270781053" xpos="1543.0016" endy="320.5824376713282"/>
+    <state pencolor="0" exit_actions="" radius="50" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="360" code="0" xpos="1478.56" linewidth="1">idle</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="425.4143999999999" code="2" xpos="940.4864000000002" linewidth="1">sxxxxxxx_11xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="413.9744" code="3" xpos="704.7264" linewidth="1">sxxxxxxx_110x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.xxxx.xxxx.xxxx.xxxx.xxxx.xxxx.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="418.1343999999999" code="4" xpos="442.6464000000001" linewidth="1">sxxxxxxx_1100</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="422.2944" code="1" xpos="1174.8864" linewidth="1">sxxxxxxx_1xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="722.9344" code="5" xpos="425.4464000000002" linewidth="1">s1xxxxxx_1xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="702.6000000000001" code="6" xpos="657.5680000000002" linewidth="1">s1xxxxxx_11xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="717.1743999999998" code="7" xpos="933.2064" linewidth="1">s1xxxxxx_110x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.xxxx.xxxx.xxxx.xxxx.xxxx.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="723.6000000000001" code="8" xpos="1185.568" linewidth="1">s1xxxxxx_1100</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="954" code="9" xpos="1173.568" linewidth="1">s11xxxxx_0xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="951.4943999999998" code="10" xpos="930.4064000000001" linewidth="1">s11xxxxx_00xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="945.8144" code="11" xpos="672.8064000000002" linewidth="1">s11xxxxx_000x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.0000.xxxx.xxxx.xxxx.xxxx.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="938.6944000000001" code="12" xpos="419.6864000000002" linewidth="1">s11xxxxx_0000</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="1169.9744" code="13" xpos="426.9664000000001" linewidth="1">s11Lxxxx_0xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="1162.8544" code="14" xpos="682.8064000000002" linewidth="1">s11Lxxxx_00xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="1158.5344" code="15" xpos="923.0464000000002" linewidth="1">s11Lxxxx_001x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.0000.0011.xxxx.xxxx.xxxx.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="1159.9744" code="16" xpos="1173.2864" linewidth="1">s11Lxxxx_0011</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="1103.8944" code="17" xpos="1813.3664" linewidth="1">s11L0xxx_0xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="1101.0944" code="18" xpos="2093.6064" linewidth="1">s11L0xxx_00xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="1096.5344" code="19" xpos="2374.9664" linewidth="1">s11L0xxx_001x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.0000.0011.0011.xxxx.xxxx.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="1088.2144" code="20" xpos="2656.246400000001" linewidth="1">s11L0xxx_0011</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="891.6000000000001" code="21" xpos="2645.568" linewidth="1">s11L00xx_0xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="892.6000000000001" code="22" xpos="2365.568" linewidth="1">s11L00xx_00xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="891.6000000000001" code="23" xpos="2092.568" linewidth="1">s11L00xx_000x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.0000.0011.0011.0000.xxxx.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="893.6000000000001" code="24" xpos="1814.568" linewidth="1">s11L00xx_0000</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="629.8943999999999" code="25" xpos="1813.2864" linewidth="1">s11L00Lx_0xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="632.4544" code="26" xpos="2079.3664" linewidth="1">s11L00Lx_00xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="632.4544" code="27" xpos="2352.0864" linewidth="1">s11L00Lx_000x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.0000.0011.0011.0000.0000.xxxx" finalstate="0" entry_actions="" moore_outputs="0" ypos="630.9344" code="28" xpos="2661.9264" linewidth="1">s11L00Lx_0000</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="395.4144" code="29" xpos="2661.7664" linewidth="1">s11L00LL_0xxx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="401.0143999999999" code="30" xpos="2363.3664" linewidth="1">s11L00LL_00xx</state>
+    <state pencolor="0" exit_actions="" radius="75" description="" finalstate="0" entry_actions="" moore_outputs="0" ypos="402.4544" code="31" xpos="2062.1664" linewidth="1">s11L00LL_000x</state>
+    <state pencolor="0" exit_actions="" radius="75" description="1100.1100.0000.0011.0011.0000.0000.0000" finalstate="0" entry_actions="" moore_outputs="1" ypos="402" code="32" xpos="1800" linewidth="1">s11L00LL_0000</state>
+    <transition c1x="1353.25858327241" c2y="230.4094551920852" c1y="325.3654079559321" description="" straight="1" type="0" ypos="334.6596769366424" endx="1461.829637230306" xpos="1435.457006750753" endy="312.8821163294184" c2x="1468.250262060175">
+      <from>0</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1410.801714910445" c2y="378.0670445111288" c1y="380.3367925344012" description="" straight="0" type="0" ypos="378.227088986849" endx="1244.001741996863" xpos="1432.000648339292" endy="393.1727671361531" c2x="1269.680119334844">
+      <from>0</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="834.7827462115738" c2y="369.8545881083001" c1y="368.2857400031367" description="" straight="0" type="0" ypos="388.3168918979734" endx="775.3406930949504" xpos="875.3037727698857" endy="388.7034362134634" c2x="833.1417196532623">
+      <from>2</from>
+      <to>3</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="887.2216202198526" c2y="495.9007378000827" c1y="529.5197053561408" description="" straight="0" type="0" ypos="493.1473395671025" endx="868.4395401764236" xpos="908.2800512842698" endy="446.2530657337248" c2x="812.8048236745094">
+      <from>2</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="849.3560540503163" c2y="306.7688152477173" c1y="285.7213315859258" description="" straight="0" type="0" ypos="355.665102241602" endx="1120.97341576119" xpos="751.896579085122" endy="370.1562169623662" c2x="1024.850478989058">
+      <from>3</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="592.4742787220016" c2y="415.7268119330186" c1y="417.7722605066311" description="" straight="1" type="0" ypos="419.8177090802435" endx="517.5140863852326" xpos="629.954374890386" endy="413.6813633594062" c2x="554.9941825536171">
+      <from>3</from>
+      <to>4</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="436.7026223755755" c2y="596.5412101753298" c1y="544.7843200648937" description="" straight="1" type="0" ypos="493.0274299544577" endx="432.8235786590135" xpos="438.6421442338565" endy="648.2981002857657" c2x="434.7631005172945">
+      <from>4</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="621.4570067335237" c2y="202.2477173542486" c1y="257.2109364683251" description="" straight="0" type="0" ypos="356.1070518786979" endx="1428.932070271769" xpos="484.8080897792156" endy="353.9116019438758" c2x="1241.883153317461">
+      <from>4</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1071.743553278029" c2y="423.0839706155505" c1y="422.948951465059" description="" straight="1" type="0" ypos="422.8139323145674" endx="1015.454260939903" xpos="1099.888199447093" endy="423.2189897660421" c2x="1043.598907108966">
+      <from>1</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1198.646679479911" c2y="322.6673405428221" c1y="323.8929319298356" description="" straight="0" type="0" ypos="349.8986554428375" endx="1429.208701843706" xpos="1194.478647701938" endy="351.9719634848494" c2x="1351.153822112178">
+      <from>1</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="527.8535246468674" c2y="711.7928231718624" c1y="716.7695575279037" description="" straight="1" type="0" ypos="721.746291883945" endx="582.6865964668325" xpos="500.4369887368848" endy="706.8160888158211" c2x="555.2700605568499">
+      <from>5</from>
+      <to>6</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="768.5962143955821" c2y="756.7026319124637" c1y="407.4092247734328" description="" straight="0" type="0" ypos="670.6506871263214" endx="1447.048238429482" xpos="479.2182640939921" endy="398.8202122962101" c2x="785.7996055142528">
+      <from>5</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="660.7788827264399" c2y="477.8305888624045" c1y="526.6231052309039" description="" straight="0" type="0" ypos="627.6065777933824" endx="868.9270904178436" xpos="656.5747096396476" endy="447.8702502872875" c2x="847.3688317523181">
+      <from>6</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="780.4978504438948" c2y="731.8247327126064" c1y="737.5865022002771" description="" straight="0" type="0" ypos="723.3482716879478" endx="858.2116638154164" xpos="729.640943758134" endy="718.0629632249357" c2x="815.3547571296558">
+      <from>6</from>
+      <to>7</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1044.44189455055" c2y="537.3330718243642" c1y="622.203726403646" description="" straight="0" type="0" ypos="662.7064484778308" endx="1134.600374992989" xpos="984.7645444291651" endy="485.5560486438226" c2x="1051.670289986046">
+      <from>7</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1057.370846833745" c2y="713.7457648539686" c1y="713.1458136161862" description="" straight="0" type="0" ypos="718.8884688067329" endx="1110.604594293469" xpos="1008.186810562532" endy="725.9426064283292" c2x="1082.591477398427">
+      <from>7</from>
+      <to>8</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1181.702437608957" c2y="852.2228280733581" c1y="825.4081895130964" description="" straight="1" type="0" ypos="798.5935509528349" endx="1175.938356786289" xpos="1184.584478020291" endy="879.0374666336196" c2x="1178.820397197623">
+      <from>8</from>
+      <to>9</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1031.884259854476" c2y="590.7363787347385" c1y="579.1179128115352" description="" straight="0" type="0" ypos="662.3164194172109" endx="489.9153311139833" xpos="1142.332334734472" endy="684.6100354126972" c2x="545.0378566775655">
+      <from>8</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1366.807710574088" c2y="560.6192992689689" c1y="853.7049580113986" description="" straight="0" type="0" ypos="907.2207347448177" endx="1222.190851090517" xpos="1232.191377096388" endy="480.4948201619275" c2x="1403.97545043274">
+      <from>9</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1067.053648198988" c2y="985.9790110174931" c1y="1010.554733667429" description="" straight="0" type="0" ypos="992.3624563173652" endx="1003.293488140774" xpos="1109.121728228095" endy="969.1712883675571" c2x="1039.361568169881">
+      <from>9</from>
+      <to>10</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="819.5442092864359" c2y="951.5388392293561" c1y="953.0789781022692" description="" straight="1" type="0" ypos="954.6191169751824" endx="747.6895865676609" xpos="855.4715206458235" endy="949.9987003564429" c2x="783.6168979270484">
+      <from>10</from>
+      <to>11</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1036.059140006793" c2y="588.770123511209" c1y="733.0256175420902" description="" straight="0" type="0" ypos="877.4405557864858" endx="1150.899637040738" xpos="942.2819276598807" endy="493.3551852668135" c2x="1055.122424693826">
+      <from>10</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="563.4562332898071" c2y="940.5842814481733" c1y="942.0480334110363" description="" straight="1" type="0" ypos="943.5117853738991" endx="494.6851894146417" xpos="597.8417552273897" endy="939.1205294853105" c2x="529.0707113522244">
+      <from>11</from>
+      <to>12</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1023.398463046024" c2y="568.5680637751406" c1y="387.6072354582441" description="" straight="0" type="0" ypos="891.6845714587668" endx="1122.014830196216" xpos="724.7194201596547" endy="475.4883574245383" c2x="1010.131587632357">
+      <from>11</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="422.4149651312403" c2y="1068.000296576473" c1y="1040.830393037272" description="" straight="1" type="0" ypos="1013.660489498071" endx="432.3822729366441" xpos="417.4313112285383" endy="1095.170200115675" c2x="427.3986190339422">
+      <from>12</from>
+      <to>13</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="812.432144076744" c2y="511.0470239892942" c1y="772.9729344203506" description="" straight="0" type="0" ypos="923.5234518535388" endx="1106.15464731796" xpos="493.1359904164034" endy="452.3101654117771" c2x="859.0886004891504">
+      <from>12</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="537.2428822052343" c2y="1166.345309300639" c1y="1167.092697930536" description="" straight="1" type="0" ypos="1167.840086560432" endx="607.8565961688412" xpos="501.9360252234309" endy="1165.597920670743" c2x="572.5497391870377">
+      <from>13</from>
+      <to>14</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1732.848380244615" c2y="651.4843614193632" c1y="1540.413619409053" description="" straight="0" type="0" ypos="1209.17157492578" endx="1221.972529333834" xpos="490.9084165293355" endy="480.6715909598044" c2x="1477.930992272829">
+      <from>13</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="787.882409856142" c2y="1157.977623021408" c1y="1159.531959755936" description="" straight="1" type="0" ypos="1161.086296490463" endx="848.0761178950869" xpos="757.7855558366696" endy="1156.423286286881" c2x="817.9792638756145">
+      <from>14</from>
+      <to>15</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1837.128306051903" c2y="576.8861742330524" c1y="1536.587260897296" description="" straight="0" type="0" ypos="1220.073655783192" endx="1481.613563008821" xpos="731.2930658744201" endy="409.9066704254167" c2x="1425.854524797648">
+      <from>14</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1031.49411274803" c2y="1157.022012823878" c1y="1158.115450251231" description="" straight="1" type="0" ypos="1159.208887678583" endx="1098.395604148454" xpos="998.0433670478178" endy="1155.928575396526" c2x="1064.944858448242">
+      <from>15</from>
+      <to>16</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1529.951450698354" c2y="634.2734315410238" c1y="1038.177570330863" description="" straight="0" type="0" ypos="1111.562195576381" endx="1468.089929841898" xpos="981.5152978140154" endy="408.891488327565" c2x="1481.423041363119">
+      <from>15</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1398.687243684909" c2y="1108.016407875775" c1y="1156.776374684198" description="" straight="0" type="0" ypos="1160.896341492622" endx="1738.380264497762" xpos="1248.280733278483" endy="1105.336441067351" c2x="1569.253754091335">
+      <from>16</from>
+      <to>17</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1381.883108849882" c2y="683.5074181164875" c1y="967.5911606265806" description="" straight="0" type="0" ypos="1106.234903136674" endx="1011.882565009877" xpos="1225.603380769886" endy="448.3836756063944" c2x="1456.08283692988">
+      <from>16</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1931.78111312653" c2y="1103.505651702812" c1y="1104.228142485958" description="" straight="1" type="0" ypos="1104.950633269104" endx="2018.625415166802" xpos="1888.358962106393" endy="1102.783160919666" c2x="1975.203264146666">
+      <from>17</from>
+      <to>18</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1503.8521957584" c2y="857.0571411041877" c1y="1012.470556389919" description="" straight="0" type="0" ypos="1083.409863996634" endx="1225.601997638681" xpos="1741.218054317464" endy="477.547709006352" c2x="1694.861891620122">
+      <from>17</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2212.399860900488" c2y="1099.148057994715" c1y="1099.834977795418" description="" straight="1" type="0" ypos="1100.521897596121" endx="2299.991152885157" xpos="2168.604214908153" endy="1098.461138194012" c2x="2256.195506892822">
+      <from>18</from>
+      <to>19</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1556.027155226097" c2y="887.6698697367509" c1y="965.8732374638801" description="" straight="0" type="0" ypos="1055.539899211917" endx="1494.295445530531" xpos="2034.026307200907" endy="407.4594116478038" c2x="1668.76210439139">
+      <from>18</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2493.743569479654" c2y="1089.241746341395" c1y="1093.391383536204" description="11L00---" straight="1" type="0" ypos="1097.541020731013" endx="2581.311419518075" xpos="2449.959644460444" endy="1085.092109146586" c2x="2537.527494498864">
+      <from>19</from>
+      <to>20</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1349.725334882176" c2y="1064.186100817206" c1y="916.2023635184253" description="" straight="0" type="0" ypos="1048.610847441596" endx="1479.441939507739" xpos="2317.274692535392" endy="409.992221221953" c2x="1754.049916736698">
+      <from>19</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2713.834760991994" c2y="1004.312492357868" c1y="996.459824007509" description="" straight="0" type="0" ypos="1025.60715565715" endx="2692.420128566582" xpos="2697.5420772047" endy="950.1651607082273" c2x="2741.127444779288">
+      <from>20</from>
+      <to>21</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1362.32515188835" c2y="1153.512016745353" c1y="1427.991037195322" description="" straight="0" type="0" ypos="1135.776616919267" endx="997.8973844426146" xpos="2598.256439474712" endy="473.6738950795165" c2x="1952.35994613905">
+      <from>20</from>
+      <to>2</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2527.226840904664" c2y="890.9799729960722" c1y="891.2414114092544" description="" straight="1" type="0" ypos="891.5028498224367" endx="2440.544396871844" xpos="2570.568062921073" endy="890.7185345828899" c2x="2483.885618888254">
+      <from>21</from>
+      <to>22</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2461.862711871156" c2y="844.2421806226878" c1y="698.7702037249813" description="" straight="0" type="0" ypos="835.8529390314624" endx="1223.262313116292" xpos="2595.395645128317" endy="479.6073220173338" c2x="1667.646743924909">
+      <from>21</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2249.567761712346" c2y="891.6136740799769" c1y="892.0262786866667" description="" straight="1" type="0" ypos="892.4388832933566" endx="2167.566939022061" xpos="2290.568173057488" endy="891.201069473287" c2x="2208.567350367203">
+      <from>22</from>
+      <to>23</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2098.847443394115" c2y="1338.518547798273" c1y="951.9789640953593" description="" straight="0" type="0" ypos="927.7496585149713" endx="455.982025335862" xpos="2299.314686827896" endy="791.4367764941617" c2x="508.57573048428">
+      <from>22</from>
+      <to>5</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1974.901964618567" c2y="892.8077067787738" c1y="892.0154135575474" description="11L00L--" straight="1" type="0" ypos="891.223120336321" endx="1889.568" xpos="2017.568946927851" endy="893.6000000000001" c2x="1932.234982309284">
+      <from>23</from>
+      <to>24</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1959.723826601031" c2y="789.2226849608732" c1y="716.4749528971124" description="" straight="0" type="0" ypos="816.8765301972557" endx="1223.416255291246" xpos="2086.133478989208" endy="479.4770297524935" c2x="1633.571637250598">
+      <from>23</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1891.367595431977" c2y="752.3205026969505" c1y="818.4433351222024" description="" straight="0" type="0" ypos="842.5661675474546" endx="1866.047762551987" xpos="1869.527511871973" endy="683.1976702716987" c2x="1895.207678991982">
+      <from>24</from>
+      <to>25</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1720.268044462926" c2y="671.3921466014882" c1y="797.4325596573808" description="" straight="0" type="0" ypos="837.5926096484053" endx="1224.174598126526" xpos="1764.686417968111" endy="478.8246885667527" c2x="1425.518785041554">
+      <from>24</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1926.9286227567" c2y="635.1390428735284" c1y="634.565893926334" description="" straight="1" type="0" ypos="633.9927449791394" endx="2004.43718812337" xpos="1888.174340073365" endy="635.712191820723" c2x="1965.682905440035">
+      <from>25</from>
+      <to>26</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1743.977102011886" c2y="542.5260377623538" c1y="566.8005911162323" description="" straight="0" type="0" ypos="578.8515263401514" endx="1245.925929459064" xpos="1758.335284919915" endy="446.3440414575109" c2x="1739.107326178602">
+      <from>25</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2195.27960757964" c2y="633.6779832228737" c1y="632.4438706841903" description="" straight="1" type="0" ypos="631.2097581455068" endx="2277.126679272508" xpos="2154.356071733206" endy="634.9120957615571" c2x="2236.203143426074">
+      <from>26</from>
+      <to>27</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1963.039699668428" c2y="537.5437960873991" c1y="561.9689885299399" description="" straight="0" type="0" ypos="585.1941809724809" endx="1245.658985888878" xpos="2021.130056558203" endy="447.1186036448578" c2x="1925.349342778653">
+      <from>26</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2480.425475982295" c2y="628.1703569209193" c1y="631.3872055130553" description="11L00LL-" straight="1" type="0" ypos="634.6040541051913" endx="2587.165254109791" xpos="2427.055586918547" endy="624.9535083287833" c2x="2533.795365046043">
+      <from>27</from>
+      <to>28</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2109.7162113107" c2y="553.9127091206556" c1y="496.2335079585481" description="" straight="0" type="0" ypos="577.7543067964407" endx="1245.199414137079" xpos="2300.774609897511" endy="448.3919102827629" c2x="1831.05781272389">
+      <from>27</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2663.601007814203" c2y="498.8620972201946" c1y="527.4875198086654" description="" straight="1" type="0" ypos="556.1129423971363" endx="2656.606243128847" xpos="2667.09839015688" endy="470.2366746317238" c2x="2660.103625471525">
+      <from>28</from>
+      <to>29</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2421.024918828854" c2y="498.910519499615" c1y="497.575135484497" description="" straight="0" type="0" ypos="575.8175092959664" endx="1246.203233302134" xpos="2611.0625782883" endy="445.5088198238012" c2x="1579.242025728801">
+      <from>28</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2537.339952759118" c2y="400.1502707361603" c1y="399.2861414723208" description="" straight="1" type="0" ypos="398.4220122084812" endx="2438.3664" xpos="2586.826729138677" endy="401.0143999999999" c2x="2487.853176379559">
+      <from>29</from>
+      <to>30</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2534.04101042721" c2y="24.77948248883702" c1y="276.7686618405158" description="" straight="0" type="0" ypos="343.0393601847277" endx="1172.691560271766" xpos="2608.083486476714" endy="347.3265223551889" c2x="1544.364710691606">
+      <from>29</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2237.986963093894" c2y="402.6913181523417" c1y="402.9282363046833" description="" straight="1" type="0" ypos="403.165154457025" endx="2137.1664" xpos="2288.397244640842" endy="402.4544" c2x="2187.576681546947">
+      <from>30</from>
+      <to>31</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="2294.288416677679" c2y="73.49505712805132" c1y="261.953324096618" description="" straight="0" type="0" ypos="331.1046151439611" endx="1172.777711641294" xpos="2336.207203005568" endy="347.3240496379679" c2x="1456.53845915173">
+      <from>30</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1949.78693249349" c2y="401.6684650482463" c1y="401.3369300964926" description="11L00LLL" straight="1" type="0" ypos="401.0053951447388" endx="1875" xpos="1987.180398740235" endy="402" c2x="1912.393466246745">
+      <from>31</from>
+      <to>32</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1796.503327986814" c2y="207.0857543181409" c1y="167.8826098532832" description="" straight="0" type="0" ypos="351.2788340485178" endx="1174.306935252881" xpos="2007.338838960451" endy="347.2966385626954" c2x="1332.938038619586">
+      <from>31</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1674.316194276987" c2y="307.7919522524751" c1y="312.1161234890346" description="" straight="0" type="0" ypos="343.3181835328373" endx="1520.390503376446" xpos="1753.294064444503" endy="332.6100568223819" c2x="1603.843058252963">
+      <from>32</from>
+      <to>0</to>
+      <inputs default="0" any="0" invert="0">0</inputs>
+      <outputs></outputs>
+    </transition>
+    <transition c1x="1685.950801513098" c2y="488.9119453534388" c1y="436.2356507191692" description="" straight="0" type="0" ypos="424.3902763655037" endx="1246.302458045222" xpos="1728.420145821074" endy="445.2017493290157" c2x="1582.414339270769">
+      <from>32</from>
+      <to>1</to>
+      <inputs default="0" any="0" invert="0">1</inputs>
+      <outputs></outputs>
+    </transition>
+  </machine>
+</qfsmproject>
