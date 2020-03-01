@@ -59,7 +59,7 @@ $(WAVE_VCD): compile
 	ghdl --elab-run $(GHDL_FLAGS) $(TB_TOPMOD) --vcd=$(WAVE_VCD)
 
 gui: $(WAVE_VCD)
-	gtkwave $(WAVE_VCD)
+	gtkwave --dark $(WAVE_VCD)
 
 compile: $(SRC) $(TB_SRC)
 	ghdl -a $(GHDL_FLAGS) $(SRC) $(TB_SRC)
