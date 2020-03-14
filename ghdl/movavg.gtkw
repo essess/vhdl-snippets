@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sat Mar 14 02:03:27 2020
+[*]
+[dumpfile] "C:\prj\vhdl-snippets\ghdl\wave.vcd"
+[dumpfile_mtime] "Sat Mar 14 02:00:47 2020"
+[dumpfile_size] 631976
+[savefile] "C:\prj\vhdl-snippets\ghdl\movavg.gtkw"
+[timestart] 23035300000
+[size] 1406 673
+[pos] -1 -1
+*-25.277113 23126000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] movavg_tb.
+[sst_width] 211
+[signals_width] 255
+[sst_expanded] 1
+[sst_vpaned_height] 180
+@28
+movavg_tb.srst
+@18028
+movavg_tb.clk
+@420
+movavg_tb.clkcnt
+@200
+-
+@420
+movavg_tb.len
+movavg_tb.scale[15:0]
+@c08421
+movavg_tb.smp_in[15:0]
+@28
+(0)movavg_tb.smp_in[15:0]
+(1)movavg_tb.smp_in[15:0]
+(2)movavg_tb.smp_in[15:0]
+(3)movavg_tb.smp_in[15:0]
+(4)movavg_tb.smp_in[15:0]
+(5)movavg_tb.smp_in[15:0]
+(6)movavg_tb.smp_in[15:0]
+(7)movavg_tb.smp_in[15:0]
+(8)movavg_tb.smp_in[15:0]
+(9)movavg_tb.smp_in[15:0]
+(10)movavg_tb.smp_in[15:0]
+(11)movavg_tb.smp_in[15:0]
+(12)movavg_tb.smp_in[15:0]
+(13)movavg_tb.smp_in[15:0]
+(14)movavg_tb.smp_in[15:0]
+(15)movavg_tb.smp_in[15:0]
+@1401201
+-group_end
+@20000
+-
+-
+-
+-
+@420
+movavg_tb.smp_in[15:0]
+movavg_tb.smp_out[15:0]
+@88420
+movavg_tb.avg[15:0]
+@20000
+-
+-
+-
+-
+@420
+movavg_tb.avg[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
